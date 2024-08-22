@@ -38,7 +38,6 @@ const three = (req,res,next) =>{
   res.send('finished');
 }
 
-app.get('/chain(.html)?',[one,two,three]);
 
 
 app.get('/*', (req,res) => {
